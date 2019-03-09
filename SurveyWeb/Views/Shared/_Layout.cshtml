@@ -29,13 +29,28 @@
                 </button>
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SurveyWeb</a>
             </div>
+            @if (Context.Request.Cookies["usuario"] != null && Context.Request.Cookies["nivel"] == "A")
+            {
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a href="/Dashboard">Dashboard</a></li>
+                    <li><a href="/Questionarios">Questionários</a></li>
+                    <li><a href="/Pergunta">Perguntas</a></li>
+                    <li><a href="#">Relatórios</a></li>
+                </ul>
+                <ul id="navbar2" class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-user"></span> NOME USUÁRIO<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Alterar dados</a></li>
+                            <li><a href="/Home/Logout">Sair</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
+            }
         </div>
     </nav>
     <div class="container body-content">
