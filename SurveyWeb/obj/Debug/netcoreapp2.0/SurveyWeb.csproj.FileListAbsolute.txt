@@ -3,9 +3,9 @@ C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\bin\Debug\netcoreapp2.0\SurveyW
 C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\bin\Debug\netcoreapp2.0\SurveyWeb.runtimeconfig.dev.json
 C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\bin\Debug\netcoreapp2.0\SurveyWeb.dll
 C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\bin\Debug\netcoreapp2.0\SurveyWeb.pdb
-C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\obj\Debug\netcoreapp2.0\SurveyWeb.csprojAssemblyReference.cache
 C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\obj\Debug\netcoreapp2.0\SurveyWeb.csproj.CoreCompileInputs.cache
 C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\obj\Debug\netcoreapp2.0\SurveyWeb.AssemblyInfoInputs.cache
 C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\obj\Debug\netcoreapp2.0\SurveyWeb.AssemblyInfo.cs
 C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\obj\Debug\netcoreapp2.0\SurveyWeb.dll
 C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\obj\Debug\netcoreapp2.0\SurveyWeb.pdb
+C:\Users\Rafae\Desktop\Lp4 2019\Survey\SurveyWeb\obj\Debug\netcoreapp2.0\SurveyWeb.csprojAssemblyReference.cache
