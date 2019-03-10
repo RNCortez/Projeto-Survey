@@ -17,17 +17,18 @@ namespace SurveyWeb.Controllers
         [HttpPost]
         public IActionResult Validar(IFormCollection form)
         {
-            int usuario = 0;
+            string email = "";
             string senha = "";
 
-            int.TryParse(form["txtEmail"], out usuario);
+            email =form["txtEmail"];
             senha = form["txtSenha"];
 
-            if (usuario == 1000 && senha == "123")
+            if (email == "teste@teste" && senha == "123")
             {
                 CookieOptions ck = new CookieOptions();
                 ck.Expires = DateTime.Now.AddDays(1);
-                Response.Cookies.Append("usuario", usuario.ToString(), ck);
+                Response.Cookies.Append("usuario", "Teste", ck);
+                Response.Cookies.Append("email", "teste@teste", ck);
                 Response.Cookies.Append("nivel", "A", ck);
 
                 return RedirectToAction("Index", "Dashboard");

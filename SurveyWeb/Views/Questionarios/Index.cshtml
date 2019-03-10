@@ -2,32 +2,8 @@
 @{
     ViewBag.Title = "Meus Questionários";
 }
-@section scripts {
-    @*@<script type="text/javascript">
-              function Alterar(e) {
-                  $("#txtId").val(e.getAttribute("data-id"));
-                  //Chamada AJAX para recuperar os dados do questionário
-                  var titulo = e.getAttribute("data-titulo");
-                  $("#txtTitulo").val(titulo);
-                  $("#txtDataInicio").val(e.getAttribute("data-inicio"));
 
 
-                  var a_ = '<a data - fancybox data - src="#formQuestionario""></a>';
-                  $(document).html(a);
-
-
-                  }
-
-
-              $(document).ready(function () {
-                  $("#linkPDF").attr("href", "/PDF/Exportar/" + $("#txtPalavraChave").val());
-              })
-        </script>*@
-
-
-    <script src="~/Scripts/Views/Util.js?v=2"></script>
-    <script src="~/Scripts/Views/Questionario/Index.js?v=2"></script>
-}
 
 <h2>Meus Questionários</h2>
 <form>
@@ -48,7 +24,10 @@
 </form>
 <hr />
 <h3>Questionários Cadastrados</h3>
-<table id="tableQuestionarios" class="table table-striped table-responsive table-condensed table-hover"></table>
+
+
+
+
 
 @*Fancybox FORM QUESTIONÁRIO*@
 <div style="display: none; min-width: 300px; width: 800px" id="formQuestionario">
